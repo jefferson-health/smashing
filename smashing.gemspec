@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.add_dependency('rufus-scheduler', '~> 3.4.2')
   s.add_dependency('thor', '~> 0.19.4')
   s.add_dependency('sprockets', '~> 3.7.1')
-  s.add_dependency('rack', '~> 2.0.0')
+  s.add_dependency('rack')
 
   s.add_development_dependency('rake', '~> 12.3.3')
   s.add_development_dependency('haml', '~> 5.0.1')
